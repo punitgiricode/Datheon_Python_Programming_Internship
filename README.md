@@ -63,7 +63,7 @@ Hangman_Explanation.md  # detailed explanation of the code
 ## Code Overview
 | Function | Purpose |
 |---|---|
-| `load_words()` | Loads words from `words.txt` or the built-in list |
+| `load_words()` | Loads words from `word.txt` or the built-in list |
 | `mask_word()` | Builds the hidden-word display |
 | `show_status()` | Prints gallows, word, wrong letters, attempts left |
 | `get_guess()` | Validates input and rejects duplicate guesses |
