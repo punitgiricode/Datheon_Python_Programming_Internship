@@ -10,7 +10,7 @@ A terminal-based Hangman game written in Python 3 using only the standard librar
 - Input validation (only single letters a-z accepted)
 - Clear victory and game-over screens
 - Play-again option with a running win/loss score
-- Uses `words.txt` if present, otherwise a built-in word list
+- Uses `word.txt` if present, otherwise a built-in word list
 
 ## Requirements
 - Python 3.6 or newer
@@ -18,7 +18,7 @@ A terminal-based Hangman game written in Python 3 using only the standard librar
 
 ## How to Run
 1. Put `hangman.py` in a folder.
-2. (Optional) Download the English words list and save it as `words.txt` in the same folder.
+2. (Optional) Download the English words list and save it as `word.txt` in the same folder.
 3. Open a terminal in that folder and run:
 
 ```
@@ -55,7 +55,7 @@ Guess a letter:
 ## Project Structure
 ```
 hangman.py              # the game
-words.txt               # optional word list (one word per line)
+word.txt                # optional word list (one word per line)
 README.md               # this file
 Hangman_Explanation.md  # detailed explanation of the code
 ```
