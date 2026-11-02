@@ -18,7 +18,7 @@ A terminal-based Hangman game written in Python 3 using only the standard librar
 
 ## How to Run
 1. Put `hangman.py` in a folder.
-2. (Optional) Download the English words list and save it as `words.txt` in the same folder.
+2. (Optional) Download the English words list and save it as `word.txt` in the same folder.
 3. Open a terminal in that folder and run:
 
 ```
@@ -55,7 +55,7 @@ Guess a letter:
 ## Project Structure
 ```
 hangman.py              # the game
-words.txt               # optional word list (one word per line)
+word.txt                # optional word list (one word per line)
 README.md               # this file
 Hangman_Explanation.md  # detailed explanation of the code
 ```
@@ -63,7 +63,7 @@ Hangman_Explanation.md  # detailed explanation of the code
 ## Code Overview
 | Function | Purpose |
 |---|---|
-| `load_words()` | Loads words from `words.txt` or the built-in list |
+| `load_words()` | Loads words from `word.txt` or the built-in list |
 | `mask_word()` | Builds the hidden-word display |
 | `show_status()` | Prints gallows, word, wrong letters, attempts left |
 | `get_guess()` | Validates input and rejects duplicate guesses |
